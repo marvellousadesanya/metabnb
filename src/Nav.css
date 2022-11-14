@@ -19,8 +19,24 @@ nav ul {
   cursor: pointer;
 }
 
-nav ul Link li {
+.link:link {
   text-decoration: none;
+  color: #000;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.link:active {
+  text-decoration: none;
+  color: #000;
 }
 
 .logo_icon {
@@ -37,4 +53,34 @@ nav ul Link li {
   color: white;
   border: none;
   font-family: "Red Rose", sans-serif;
+}
+
+#hamburger-menu {
+  position: absolute;
+  font-size: 30px;
+  color: black;
+  right: 8%;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: none;
+  }
+  #hamburger-menu {
+    display: block;
+  }
+  /* #mobile_menu_view {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 80px;
+    position: absolute;
+    background-color: white;
+    left: 0;
+  } */
+  .connect_btn {
+    display: none;
+  }
 }
