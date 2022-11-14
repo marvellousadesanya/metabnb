@@ -5,7 +5,7 @@
 
 const imgArray = [];
 let i;
-for (i = 1; i < 9; i++) {
+for (i = 1; i < 17; i++) {
   // Listing names are numbered from 1 to 16.
   imgArray.push("Listing" + i + ".png");
 }

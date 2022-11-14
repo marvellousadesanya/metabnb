@@ -1,4 +1,6 @@
 footer {
+  position: relative;
+  bottom: 0;
   background-color: #1d1d1e;
   height: 322px;
   color: white;
@@ -21,6 +23,12 @@ div p {
   height: 35.12px;
 }
 
+#footer_icons {
+  display: flex;
+  padding-top: 50px;
+  gap: 20%;
+}
+
 #copyright {
   position: absolute;
   left: 10%;
@@ -37,5 +45,6 @@ div p {
     display: block;
     width: 100%;
     margin-left: 10%;
+    font-size: 20px;
   }
 }

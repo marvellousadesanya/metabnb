@@ -112,7 +112,7 @@ span {
 /* For Mobile */
 @media only screen and (max-width: 600px) {
   header {
-    height: 780px;
+    height: 800px;
   }
   .main_frame {
     display: flex;

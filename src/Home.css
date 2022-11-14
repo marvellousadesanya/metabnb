@@ -183,4 +183,9 @@
     left: 5% !important;
     width: 50%;
   }
+  #learn-more_btn {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+  }
 }

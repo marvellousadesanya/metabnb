@@ -11,10 +11,10 @@ const Footer = () => {
             alt=""
             id="footer_logo"
           ></img>
-          <div>
-            {/* <img src={require()} alt="fb logo"></img>
-            <img></img>
-            <img></img> */}
+          <div id="footer_icons">
+            <img src={require("./images/fb-icon.png")} alt="fb logo"></img>
+            <img src={require("./images/ig-icon.png")} alt="instagram"></img>
+            <img src={require("./images/twi-icon.png")} alt="instagram"></img>
           </div>
         </div>
         <div>
