@@ -1,0 +1,40 @@
+nav {
+  /* width: 1240px; */
+  width: 80%;
+  height: 48px;
+  display: flex;
+  align-self: baseline;
+  align-items: space-between;
+  justify-content: space-between;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 25px;
+}
+
+nav ul {
+  display: flex;
+  /* justify-content: space-between; */
+  list-style: none;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+nav ul Link li {
+  text-decoration: none;
+}
+
+.logo_icon {
+  height: 32.19px;
+  cursor: pointer;
+}
+
+.connect_btn {
+  cursor: pointer;
+  width: 170px;
+  height: 48px;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.45%);
+  border-radius: 10px;
+  color: white;
+  border: none;
+  font-family: "Red Rose", sans-serif;
+}

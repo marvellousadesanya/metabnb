@@ -1,0 +1,38 @@
+#nav_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#places {
+  max-width: 921px;
+  height: 23px;
+}
+
+#places ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+#location_section {
+  display: flex;
+  max-width: 161px;
+  max-height: 48px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin-right: 10%;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+  /* position: absolute;
+  right: 10%; */
+}
+
+#location_setting {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}

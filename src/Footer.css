@@ -1,0 +1,35 @@
+footer {
+  background-color: #1d1d1e;
+  height: 322px;
+  color: white;
+  width: 100vw;
+  padding-top: 68.88px;
+}
+
+#footer_arrangement {
+  display: flex;
+  justify-content: space-around;
+}
+
+div p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#footer_logo {
+  width: 188.1px;
+  height: 35.12px;
+}
+
+#copyright {
+  position: absolute;
+  left: 10%;
+  top: 82.92%;
+  bottom: 11.49%;
+}
+
+@media only screen and (max-width: 600px) {
+  footer {
+    display: block;
+  }
+}

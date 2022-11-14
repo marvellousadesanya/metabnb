@@ -1,0 +1,147 @@
+header {
+  max-width: 1440px;
+  height: 642px;
+  background: linear-gradient(124.4deg, #ffffff 10.8%, #ffffff 87.34%);
+}
+
+h1 {
+  color: black;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 140%;
+  /* or 78px */
+
+  letter-spacing: -0.02em;
+}
+
+span {
+  color: #a02279;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.main_frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 5%;
+}
+
+.info {
+  width: 646px;
+}
+
+.support_text {
+  text-align: left;
+}
+
+.search {
+  width: 390px;
+  height: 44px;
+}
+
+.search_btn {
+  width: 230px;
+  height: 48px;
+  border: none;
+  font-family: "Red rose";
+  color: white;
+  background: linear-gradient(90deg, #a02279 11.45%, #a02279 11.46%);
+  border-radius: 0px 8px 8px 0px;
+}
+
+.picture_grid {
+  background-color: white;
+  width: 476px;
+  display: flex;
+  gap: 10px;
+  animation: floating 5s ease-in;
+}
+
+#grid1,
+#grid2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#grid1 {
+  /* position: absolute; */
+  padding-top: 15%;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in-out;
+}
+
+.floating2 {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-delay: 0.4s;
+  animation-iteration-count: 3;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+@keyframes floating2 {
+  from {
+    transform: translate(0, 0px);
+  }
+  65% {
+    transform: translate(0, 15px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
+}
+
+/* For Mobile */
+@media only screen and (max-width: 600px) {
+  header {
+    height: 780px;
+  }
+  .main_frame {
+    display: flex;
+    flex-direction: column;
+  }
+  h1 {
+    width: 300px;
+    font-size: 50px;
+    margin-left: 25%;
+    line-height: 50px;
+  }
+  .support_text {
+    margin-left: 25%;
+    width: 250px;
+  }
+  .search {
+    width: 200px;
+    margin-left: 25%;
+  }
+  .search_btn {
+    width: 100px;
+  }
+  .picture_grid {
+    /* position: relative; */
+    margin-right: 25%;
+    width: 250px;
+  }
+  #grid1,
+  #grid2 {
+    width: 160px;
+  }
+}
