@@ -25,6 +25,11 @@
   height: 265px;
 }
 
+#listing_img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
 .listing_details,
 .listing_details2 {
   display: flex;

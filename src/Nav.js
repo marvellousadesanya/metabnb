@@ -23,6 +23,13 @@ const Nav = () => {
           id="hamburger-menu"
           onClick={() => setMobile(!isMobile)}
         ></i>
+        <i
+          className={
+            isMobile ? "fa-solid fa-xmark show_cancel_btn" : "fa-solid fa-xmark"
+          }
+          id="cancel-menu_btn"
+          onClick={() => setMobile(!isMobile)}
+        ></i>
 
         {/* If in mobile view, show the mobile menu style when clicked. */}
         <ul className={isMobile ? "show" : ""}>
@@ -37,7 +44,10 @@ const Nav = () => {
           <li>NFTs</li>
           <li>Community</li>
         </ul>
-        <button onClick={() => setOpenModal(true)} className="connect_btn">
+        <button
+          onClick={() => setOpenModal(true)}
+          className={isMobile ? "connect_btn show_connect_btn" : "connect_btn"}
+        >
           Connect to wallet
         </button>
       </nav>

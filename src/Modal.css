@@ -77,3 +77,37 @@
   padding-bottom: 5%;
   margin-top: -7%;
 }
+
+@media only screen and (max-width: 600px) {
+  #modal_window {
+    position: absolute;
+    margin-top: 40%;
+    margin-left: 3vw;
+    margin-right: 10vw;
+    width: 350px;
+    height: 247px;
+    border-radius: 16px;
+    background-color: #fff;
+  }
+  .coin-background {
+    width: 300px;
+    height: 40px;
+  }
+  #connect-wallet {
+    height: 38px;
+    display: flex;
+    padding: 14px 12px;
+  }
+  .coin-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .coin {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 18%;
+    top: 5%;
+    /* line-height: 23px; */
+  }
+}

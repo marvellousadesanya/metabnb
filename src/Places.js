@@ -10,6 +10,16 @@ const Places = () => {
     <>
       <Nav />
       <div id="nav_section">
+        <select id="drop-down_menu">
+          <option>Restaurant</option>
+          <option>Cottage</option>
+          <option>Castle</option>
+          <option>Fantasy City</option>
+          <option>Beach</option>
+          <option>Carbins</option>
+          <option>Off-grid</option>
+          <option>Farm</option>
+        </select>
         <div id="places">
           <ul>
             <li>Restaurant</li>
@@ -32,11 +42,13 @@ const Places = () => {
         </div>
       </div>
 
-      <div id="listing_grid">
-        {/* Loop through the Listing component and insert the img from imgArray */}
-        {imgArray.map((imgRep) => (
-          <Listing image={imgRep} />
-        ))}
+      <div id="listing_grid_container">
+        <div id="listing_grid">
+          {/* Loop through the Listing component and insert the img from imgArray */}
+          {imgArray.map((imgRep) => (
+            <Listing image={imgRep} />
+          ))}
+        </div>
       </div>
     </>
   );

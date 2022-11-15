@@ -36,3 +36,24 @@
   height: 24px;
   cursor: pointer;
 }
+
+#drop-down_menu {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #drop-down_menu {
+    display: block;
+    margin-left: 10%;
+    height: 30px;
+  }
+  #places {
+    display: none;
+  }
+
+  #location_section {
+    height: 30px;
+    padding: 0 10px;
+    margin-right: 10%;
+  }
+}

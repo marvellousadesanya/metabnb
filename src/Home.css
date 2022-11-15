@@ -108,6 +108,11 @@
   z-index: 2;
 }
 
+.bar_icons:hover {
+  transform: translateY(-5px);
+  transition: 0.5s;
+}
+
 /* For mobile */
 @media only screen and (max-width: 600px) {
   body {
@@ -115,7 +120,7 @@
   }
   .bar_icons {
     width: 100px;
-    height: 50px;
+    height: 30px !important;
   }
   #heading_inspiration {
     font-size: 30px;
@@ -139,10 +144,12 @@
   }
   #icons-display {
     width: 100vw;
+    height: 60px;
   }
 
   #nft_space {
     width: 100vw;
+    height: 800px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -168,8 +175,9 @@
   #nft_image_section {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 55%;
     height: 50%;
+    margin-bottom: 40%;
     /* right: 0;
     top: 0; */
     /* left: 100%;
@@ -186,6 +194,7 @@
   #learn-more_btn {
     width: 100px;
     height: 40px;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }

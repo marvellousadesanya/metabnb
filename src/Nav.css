@@ -63,6 +63,15 @@ nav ul {
   display: none;
 }
 
+#cancel-menu_btn {
+  display: none;
+  font-size: 40px;
+  right: 8%;
+  position: absolute;
+  z-index: 5;
+  transition: 0.5s;
+}
+
 @media only screen and (max-width: 600px) {
   body {
     overflow-x: none;
@@ -73,6 +82,14 @@ nav ul {
   #hamburger-menu {
     display: block;
   }
+
+  /* #cancel-menu_btn {
+    display: block;
+  } */
+  .show_cancel_btn {
+    display: block !important;
+  }
+
   .show {
     display: flex;
     flex-direction: column;
@@ -81,11 +98,20 @@ nav ul {
     padding-top: 80px;
     position: absolute;
     background-color: white;
-    left: 0;
+    right: 0;
     text-align: center;
     position: fixed;
+    margin-top: -5%;
   }
   .connect_btn {
-    display: none;
+    position: absolute;
+    bottom: 50%;
+    left: 27%;
+
+    visibility: hidden;
+  }
+  .show_connect_btn {
+    display: block !important;
+    visibility: visible !important;
   }
 }
