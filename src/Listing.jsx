@@ -16,7 +16,7 @@ const Listing = ({ image }) => {
         </div>
         <div className="listing_details2">
           <p id="listing_distance">2345km away</p>
-          <p>available for 2weeks stay</p>
+          <p id="available">available for 2weeks stay</p>
         </div>
         <img src={require("./images/rating.png")} alt="" id="rating"></img>
       </div>

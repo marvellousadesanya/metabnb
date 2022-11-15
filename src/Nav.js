@@ -45,7 +45,10 @@ const Nav = () => {
           <li>Community</li>
         </ul>
         <button
-          onClick={() => setOpenModal(true)}
+          onClick={() => {
+            setOpenModal(true);
+            setMobile(false);
+          }}
           className={isMobile ? "connect_btn show_connect_btn" : "connect_btn"}
         >
           Connect to wallet

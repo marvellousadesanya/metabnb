@@ -78,6 +78,10 @@ const Home = () => {
             className="img_nft3"
             alt=""
           ></img>
+          <img
+            className="mobile-only"
+            src={require("./images/group-img.png")}
+          />
         </div>
       </div>
     </>
