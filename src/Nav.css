@@ -72,6 +72,7 @@ nav ul {
   transition: 0.5s;
 }
 
+/* For Mobile */
 @media only screen and (max-width: 600px) {
   body {
     overflow-x: none;
@@ -113,5 +114,22 @@ nav ul {
   .show_connect_btn {
     display: block !important;
     visibility: visible !important;
+  }
+}
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    width: 90%;
+  }
+  nav ul li {
+    /* width: 0px; */
+    font-size: 12px;
+  }
+
+  #logo_icon {
+    height: 10.19px !important;
+    cursor: pointer;
+    margin-left: -8%;
   }
 }

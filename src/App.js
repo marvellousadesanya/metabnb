@@ -1,3 +1,4 @@
+import React from "react";
 import Home from "./Home";
 import Footer from "./Footer";
 import Places from "./Places";

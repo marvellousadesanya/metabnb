@@ -1,10 +1,16 @@
 import React from "react";
+import { useEffect } from "react";
 import Header from "./Header";
 import Listing from "./Listing";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "./Home.css";
 
 const Home = () => {
+  useEffect(() => {
+    AOS.init({ duration: 3000 });
+  }, []);
   return (
     <>
       <Header />
@@ -27,20 +33,20 @@ const Home = () => {
         ></img>
       </div>
       <div id="listings">
-        <div id="listings_heading">
+        <div id="listings_heading" data-aos="fade-up">
           <h2 id="heading_inspiration">Inspiration for your next adventure</h2>
         </div>
 
         <div id="listing_grid_container">
           <div id="listing_grid">
-            <Listing image="Listing1.png" />
-            <Listing image="Listing2.png" />
-            <Listing image="Listing3.png" />
+            <Listing image="Listing1.png" data-aos="fade-up" />
+            <Listing image="Listing2.png" data-aos="fade-up" />
+            <Listing image="Listing3.png" data-aos="fade-down" />
             <Listing image="Listing4.png" />
-            <Listing image="Listing5.png" />
-            <Listing image="Listing6.png" />
+            <Listing image="Listing5.png" data-aos="fade-up" />
+            <Listing image="Listing6.png" data-aos="fade-down" />
             <Listing image="Listing7.png" />
-            <Listing image="Listing8.png" />
+            <Listing image="Listing8.png" data-aos="zoom-in" />
           </div>
         </div>
       </div>

@@ -145,3 +145,33 @@ span {
     width: 160px;
   }
 }
+
+/* For Tablet */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 550px;
+  }
+  h1 {
+    font-size: 40px;
+    /* width: 40%; */
+  }
+  .support_text {
+    font-size: 10px;
+  }
+  .search {
+    width: 100px;
+  }
+  .search_btn {
+    width: 80px;
+  }
+  #picture_grid {
+    width: 40%;
+  }
+  #grid1,
+  #grid2 {
+    width: 200px;
+  }
+}
