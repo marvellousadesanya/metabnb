@@ -179,9 +179,9 @@
 
   .mobile-only {
     display: block;
-    height: 55%;
+    height: 60%;
     margin-top: -10%;
-    margin-left: 5%;
+    margin-left: 0%;
   }
   #nft_image_section {
     position: relative;
