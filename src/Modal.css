@@ -80,13 +80,16 @@
   position: fixed;
   width: 100vw;
   height: 100vh;
+  top: 0;
   z-index: 5;
   padding-bottom: 5%;
-  margin-top: -20%;
 }
 
 /* For Mobile */
 @media only screen and (max-width: 600px) {
+  .overlay {
+    margin-top: -20%;
+  }
   #modal_window {
     margin-top: 30vh;
 
@@ -120,6 +123,9 @@
 
 /* For tablet */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .overlay {
+    margin-top: -20%;
+  }
   #modal_window {
     margin-top: 30vh;
     width: 650px;
